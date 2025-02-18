@@ -10,5 +10,5 @@ print(num_string * 3)
 # An example showing what the len(foo) method does
 example_text = "hello world"
 text_length = len(example_text)
-
+#add comment
 print(f"'{example_text}' is {text_length} characters long")
