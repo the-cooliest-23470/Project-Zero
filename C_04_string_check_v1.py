@@ -23,4 +23,7 @@ def string_check(question, valid_ans_list):
 # Main routine goes here
 levels = ['easy', 'medium', 'hard']
 
-like_coffee = string_check("Do you like coffee? ")
+like_coffee = string_check(question="Do you like coffee? ", valid_ans_list=['yes', 'no'])
+print(f"You chose {like_coffee}")
+choose_level = string_check(question="Choose a level: ", valid_ans_list=levels)
+print(f"you chose {choose_level}")
